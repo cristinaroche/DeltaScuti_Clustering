@@ -1,3 +1,6 @@
+# Find best fit of distribution that represents the data
+# Distributions models are the ones close to exponential or zero-inflated data
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -97,5 +100,3 @@ for feature in s_ds:
 
 plt.tight_layout()
 plt.show()
-
-print('Cris, now go and give a kiss to Daniele')
